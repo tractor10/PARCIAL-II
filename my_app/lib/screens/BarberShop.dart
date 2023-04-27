@@ -85,11 +85,8 @@ Widget _services(context) {
                   borderRadius: BorderRadius.circular(50),
                   color: Color(0XFFFFC38F),
                 ),
-                child: Image.AssetImage(
+                child: Image.asset(
                   'assets/imgs/tijeras.png',
-                  width: 40,
-                  height: 40,
-                  fit: BoxFit.cover,
                 ),
               ),
             ),
@@ -104,6 +101,9 @@ Widget _services(context) {
                   borderRadius: BorderRadius.circular(50),
                   color: Color(0XFFFFC38F),
                 ),
+                child: Image.asset(
+                  'assets/imgs/navaja-de-afeitar.png',
+                ),
               ),
             ),
             GestureDetector(
@@ -116,6 +116,9 @@ Widget _services(context) {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(50),
                   color: Color(0XFFFFC38F),
+                ),
+                child: Image.asset(
+                  'assets/imgs/peine.png',
                 ),
               ),
             ),
