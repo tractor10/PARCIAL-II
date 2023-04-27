@@ -1,7 +1,6 @@
 // ignore_for_file: file_names, prefer_const_constructors_in_immutables, prefer_const_constructors, unused_field, prefer_final_fields, avoid_unnecessary_containers, deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:my_app/screens/BarberShop.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class ScheduleScreen extends StatefulWidget {
