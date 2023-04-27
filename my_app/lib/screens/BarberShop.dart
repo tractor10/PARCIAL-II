@@ -170,6 +170,12 @@ Widget _barbers(context) {
                     borderRadius: BorderRadius.circular(50),
                     color: Color(0XFFFFC38F),
                   ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(50),
+                    child: Image(
+                      image: AssetImage('assets/imgs/bad.jpg'),
+                    ),
+                  ),
                 ),
                 Text('Bad Bunny'),
               ],
@@ -184,6 +190,12 @@ Widget _barbers(context) {
                     borderRadius: BorderRadius.circular(50),
                     color: Color(0XFFFFC38F),
                   ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(50),
+                    child: Image(
+                      image: AssetImage('assets/imgs/michael.jpg'),
+                    ),
+                  ),
                 ),
                 Text('Michel'),
               ],
@@ -197,6 +209,12 @@ Widget _barbers(context) {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
                     color: Color(0XFFFFC38F),
+                  ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(50),
+                    child: Image(
+                      image: AssetImage('assets/imgs/antonio.jpg'),
+                    ),
                   ),
                 ),
                 Text('Antonio'),
